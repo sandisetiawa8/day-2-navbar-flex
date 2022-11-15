@@ -41,6 +41,7 @@ a {
   width: 100%;
   display: flex;
   justify-content: flex-end;
+  align-items: center;
   cursor: pointer;
   padding-right: 95px;
 }
@@ -55,7 +56,6 @@ a {
   font-size: 17px;
   width: 100px;
   margin-right: 20px;
-  align-content: center;
 }
 
 .btn-contact1:hover {
