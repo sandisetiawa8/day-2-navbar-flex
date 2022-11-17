@@ -4,16 +4,15 @@ body {
   font-family: sans-serif;
   margin: 0;
   padding: 0;
-  overflow-x: hidden;
 }
 
 /* Navbar */
 nav {
   background-color: rgb(207, 200, 200);
   width: 100%;
-  height: 65px;
+  height: 70px;
   align-items: center;
-  padding-bottom: 15px;
+  display: flex;
 }
 
 nav ul {
@@ -41,13 +40,14 @@ a {
 }
 
 .nav-flex {
-  height: 36px;
-  width: 100%;
   display: flex;
-  justify-content: flex-end;
   align-items: center;
   cursor: pointer;
-  padding-right: 95px;
+  padding-right: 0;
+  margin-left: auto;
+  justify-content: center;
+  margin-right: 60px;
+  height: 40px;
 }
 
 .btn-contact1 {
@@ -55,11 +55,10 @@ a {
   color: white;
   padding: 5px;
   border-radius: 5px;
-  width: 90px;
   text-align: center;
   font-size: 17px;
-  width: 100px;
-  margin-right: 20px;
+  width: 120%;
+  justify-items: center;
 }
 
 .btn-contact1:hover {
@@ -109,6 +108,7 @@ p {
   background-color: black;
   color: white;
   margin-left: auto;
+  margin-right: 15px;
   justify-content: center;
   align-items: center;
   border-radius: 25px;
@@ -125,23 +125,22 @@ p {
 /* icon */
 .icons {
   width: 50%;
-  margin-top: 0;
   margin-top: 5px;
   text-decoration: none;
 }
 
 .icons a img {
   padding: 10px;
-  width: 25px;
-  margin-top: 15px;
-  margin-left: 0;
+  padding-top: 25px;
   list-style-type: none;
+  border-radius: 10px;
+  padding-left: 0;
 }
 
 /* card */
 .card {
   background-color: red;
-  width: 80%;
+  width: 70%;
   margin: auto;
   text-align: center;
   border-radius: 10px;
@@ -150,7 +149,8 @@ p {
 }
 
 .card img {
-  width: 95%;
+  width: 100%;
+  border-radius: 10px;
 }
 
 .card h3 {
@@ -163,4 +163,5 @@ p {
   margin-top: 0;
   font-size: 14px;
   font-weight: normal;
+  padding-bottom: 15px;
 }
